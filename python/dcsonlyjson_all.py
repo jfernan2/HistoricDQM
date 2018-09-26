@@ -51,7 +51,7 @@ def toOrdinaryJSON(fromRR3, dbmodelist, OPT, verbose=False):
 def getRunList(save=False):
 
     runlist = []
-    FULLADDRESS  = "http://runregistry.web.cern.ch/runregistry/"
+    FULLADDRESS  = "http://cmsrunregistry.cern.ch/runregistry/"
 
     print "RunRegistry from: ",FULLADDRESS
     try:
